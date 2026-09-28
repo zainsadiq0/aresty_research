@@ -8,8 +8,6 @@ Developed as Aresty undergraduate research at Rutgers University under
 Prof. K. G. Bemis, applied to cinder cones in the San Francisco Volcanic Field,
 Arizona.
 
-![Elevation profiles](figures/profile_chart.png)
-
 ---
 
 ## The problem
@@ -18,7 +16,7 @@ Measuring a cinder cone sounds trivial and isn't. Every shape parameter depends
 on one decision: **where does the cone end and the surrounding terrain begin?**
 
 The naive approach takes the endpoints of a profile line as the cone's base. That
-answer is set by where the analyst happened to stop drawing, not by the landform —
+answer is set by where the analyst happened to stop drawing, not by the landform,
 and it overestimates basal diameter, sometimes badly. Everything downstream
 (steepness, flatness, volume) inherits the error.
 
@@ -241,8 +239,8 @@ the supervision of Prof. K. G. Bemis, whose critique of the endpoint-based
 approach prompted the move to derivative-based edge detection.
 
 AI assistance (Claude) was used for code implementation and refactoring. The
-methodology — the progression from endpoints to curvature to slope, the fitted
-base surface, and the validation approach — was developed by the author in
+methodology, the progression from endpoints to curvature to slope, the fitted
+base surface, and the validation approach was developed by the author in
 consultation with Prof. Bemis.
 
 ## License
