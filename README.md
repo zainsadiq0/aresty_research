@@ -235,14 +235,10 @@ Elevation data: USGS 3D Elevation Program (3DEP), 1/3 arc-second DEM.
 ## Acknowledgments
 
 Research conducted through the Aresty Research Center, Rutgers University, under
-the supervision of Prof. K. G. Bemis, whose critique of the endpoint-based
-approach prompted the move to derivative-based edge detection.
+the supervision of PI Karen Bemis.
 
 AI assistance (Claude) was used for code implementation and refactoring. The
 methodology, the progression from endpoints to curvature to slope, the fitted
 base surface, and the validation approach was developed by the author in
 consultation with Prof. Bemis.
 
-## License
-
-MIT
