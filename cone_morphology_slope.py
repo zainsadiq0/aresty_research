@@ -2,7 +2,6 @@
 Author: Zain Sadiq
 Script made to measure cones based on slope (Runs in ArcPY)
 Work under Karen Bemis' research on Volcano Morphology
-This script was made by self alongside the help of AI (Claude)
 
 READ ------ This script is highly accurate and suitable for scoria cone shapes,
 however more tests must be run on asymettric and "difficult" cones.
